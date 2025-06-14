@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';     // ou IP do servidor do banco
-$db   = 'gordanda_ecommerce';
-$user = 'seu_usuario';
-$pass = 'sua_senha';
+$db   = 'gordanda_service';
+$user = 'root';
+$pass = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
