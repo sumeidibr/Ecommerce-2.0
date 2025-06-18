@@ -210,7 +210,7 @@ $iconMap = [
 <?php if (isset($_SESSION['usuario'])): ?>
   <div class="container">
     <div class="welcome" role="alert" aria-live="polite">
-      👋 Olá, <strong><?= htmlspecialchars($_SESSION['usuario']['nome']) ?></strong>! Bem-vindo(a) à Gordanda Services.
+      👋 Olá, <strong><?= htmlspecialchars($_SESSION['usuario']['nome']) ?></strong>! Bem-vindo(a) à GT Cash Store.
     </div>
   </div>
 <?php endif; ?>
