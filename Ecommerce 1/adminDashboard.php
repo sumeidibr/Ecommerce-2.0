@@ -154,13 +154,13 @@ $top_products = [
           <i class="fas fa-dollar-sign"></i>
           <h3>Receita</h3>
         </div>
-        <div class="value">R$ <?= number_format($metrics['revenue']['monthly'], 0, ',', '.') ?></div>
+        <div class="value"> <?= number_format($metrics['revenue']['monthly'], 0, ',', '.') ?> Mzn</div>
         <div class="trend up">
           <i class="fas fa-arrow-up"></i>
-          R$ <?= number_format($metrics['revenue']['daily_avg'], 0, ',', '.') ?> média diária
+          <?= number_format($metrics['revenue']['daily_avg'], 0, ',', '.') ?> Mzn média diária
         </div>
         <div class="trend">
-          R$ <?= number_format($metrics['revenue']['weekly'], 0, ',', '.') ?> esta semana
+          Mzn <?= number_format($metrics['revenue']['weekly'], 0, ',', '.') ?> esta semana
         </div>
       </div>
     </div>

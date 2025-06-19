@@ -29,7 +29,7 @@ $iconMap = [
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gordanda Services - Home</title>
+  <title>Acess Point - Home</title>
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
@@ -210,7 +210,7 @@ $iconMap = [
 <?php if (isset($_SESSION['usuario'])): ?>
   <div class="container">
     <div class="welcome" role="alert" aria-live="polite">
-      👋 Olá, <strong><?= htmlspecialchars($_SESSION['usuario']['nome']) ?></strong>! Bem-vindo(a) à GT Cash Store.
+      👋 Olá, <strong><?= htmlspecialchars($_SESSION['usuario']['nome']) ?></strong>! Bem-vindo(a) à Acess point Comercio.
     </div>
   </div>
 <?php endif; ?>
